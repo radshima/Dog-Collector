@@ -12,3 +12,11 @@ footer.page-footer {
   padding-top: 0;
   text-align: right;
 }
+.homepage {
+  background-image: url('1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
