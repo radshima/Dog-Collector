@@ -20,3 +20,20 @@ footer.page-footer {
   
 }
 
+
+.material-symbols-outlined {
+  font-size:48px;
+  position: relative;
+  top: 5px; 
+}
+
+.brand-logo {
+  margin-left: 14px; 
+}
+
+.right {
+  margin-right: 12px; 
+}
+.footer-text {
+  text-align: center;
+}

@@ -12,6 +12,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
     <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
   </head>
   <body>
     <header class="navbar-fixed">
@@ -19,9 +23,10 @@
         <div class="nav-wrapper">
           <ul>
             <li>
-              <a href="{% url 'home' %}" class="left brand-logo"
-                >&nbsp;&nbsp;Dog Collector</a
-              >
+              <a href="{% url 'home' %}" class="left brand-logo">
+                <span class="material-symbols-outlined" style="font-size: 40px;"> pets </span
+                >&nbsp;&nbsp;Dog Collector
+              </a>
             </li>
           </ul>
           <ul class="right">
@@ -33,9 +38,9 @@
       </nav>
     </header>
     <main class="container">{% block content %} {% endblock %}</main>
-    <footer class="page-footer purple lighten-1" >
-      <div class="right">
-        All Rights Reserved, &copy; 2021 Dog Collector &nbsp;
+    <footer class="page-footer purple lighten-1">
+      <div class="footer-text">
+        All Rights Reserved, &copy; 2023 Dog Collector &nbsp;
       </div>
     </footer>
   </body>
